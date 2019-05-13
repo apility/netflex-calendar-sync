@@ -1,0 +1,20 @@
+{
+    "name": "apility/netflex-calendar-sync",
+    "description": "Sync calendar with Netflex Structures",
+    "type": "library",
+    "require": {
+        "apility/netflex-sdk": "^1.0",
+        "tightenco/collect": "^5.8"
+    },
+    "authors": [
+        {
+            "name": "Tommy Stigen Olsen",
+            "email": "tommysolsen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Netflex\\CalendarSync\\": "src/"
+        }
+    },
+}
