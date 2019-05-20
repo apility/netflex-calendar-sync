@@ -2,6 +2,7 @@
     "name": "apility/netflex-calendar-sync",
     "description": "Sync calendar with Netflex Structures",
     "type": "library",
+    "licence": "MIT",
     "require": {
         "apility/netflex-sdk": "^1.0",
         "tightenco/collect": "^5.8"
@@ -12,6 +13,10 @@
             "email": "tommysolsen@gmail.com"
         }
     ],
+    "support": {
+    "issues": "https://github.com/apility/netflex-calendar-sync/issues",
+    "source": "https://github.com/apility/netflex-calendar-sync"
+    },
     "autoload": {
         "psr-4": {
             "Netflex\\CalendarSync\\": "src/"
